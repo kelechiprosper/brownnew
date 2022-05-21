@@ -7,24 +7,41 @@
 
     </head>
     <body>
-        <p>hello,<strong>ninjas</strong></p>
-        <p>my <small>first</small> <em>web page!</em></p>
-        <a href="http://www.thenetninja.co.uk">the net ninja website</a>
-        <a href="about.html">about page</a>
 
-        <h1>heading 1</h1>
-        <h2>heading 2</h2>
-        <h3>heading 3</h3>
-        <h4>heading 4</h4>
-        <h5>heading 5</h5>
-        <h6>heading 6</h6>
+        <h1>Html forms</h1>
 
-        <ul>
-            <li>tank</li>
-            <li>toad</li>
-            <li>bank</li>
+        <form>
+            <label for="username">enter username:</label>
+            <input type="text" id="username" name="username">
+            <br><br>
+            <label for="email">enter email:</label>
+            <input type="email" id="enter email" name="email">
+            <br><br>
+            <label for="password">password:</label>
+            <input type="password" id="enter password" name="password">
+
+            <p>select your age:</p>
+
+            <input type="radio" name="age" value="0-28" id="option-1">
+            <label for="option-1">0-28</label>
+            <input type="radio" name="age" value="28-50" id="option-2">
+            <label for="option-2">28-50</label>
+            <input type="radio" name="age" value="51+" id="option-3">
+            <label for="option-3">51+</label>
+
+            <br><br>
+            <label for="question">security question:</label>
+            <select name="question" id="question">
+                <option value="q1">what do you choose to achieve in the outside world?</option>
+                <option value="q2">what do you think of my new pair of shoes?</option>
+                <option value="q3">what is your best anonymous question?</option>
+            </section>
+
+
             
-        </ul>
+
+        </form>
+        
 
 
     </body>
