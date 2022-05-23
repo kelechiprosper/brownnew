@@ -1,4 +1,4 @@
-.put{
+/* .put{
     color: greenyellow;
 }
 .private{
@@ -7,4 +7,7 @@
 p.private.pick{
     color:midnightblue;
     border: 1px dashed;
+} */
+div .private{
+    color: green;
 }
