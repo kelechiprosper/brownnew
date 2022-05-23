@@ -1,32 +1,6 @@
-h1{
-    color: blue;
-    background-color: aqua;
-    font-size: 30px;
-    text-decoration: underline;
-    font-family: Arial;
-    text-align: center;
+span{
+    display: block;
 }
-
-p{
-    color: brown;
-    text-align: right;
-    line-height: 25px;
-    letter-spacing: 3px;
-    column-count: 2;
-    column-gap: 60px;
-}
-
-ul{
-    /* border-width: 5px;
-    border-style: dashed;
-    border-color: blueviolet;
-    */
-    
-    /* border: 3px dashed violet; */
-    border-bottom: 3px solid violet;
-    border-left: 5px dashed #7c0a7c;
-}
-li{
-    list-style-type: none;
-    text-shadow: 2px 2px whitesmoke;
+div{
+    display: inline;
 }
