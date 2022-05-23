@@ -11,7 +11,7 @@ p.private.pick{
 /* div .private{
     color: green;
 } */
-a[href*="thenetninja"]{
+/* a[href*="thenetninja"]{
     background-color: aqua;
     color: white;
     text-decoration: none;
@@ -22,4 +22,16 @@ a[href$=".com"]{
     background: yellow;
     color: white;
     border: 2px solid blue;
+} */
+div{
+    color: coral;
+    border: 2px solid lightslategray;
+    font-weight: bold;
+    font-size: small;
+    margin: 40px;
+
+}
+p{
+    border: inherit;
+    margin: inherit;
 }
