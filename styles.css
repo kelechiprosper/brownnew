@@ -1,6 +1,59 @@
+header{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    border-radius: 36px;
+    display: inline-block;
+}
+
+
 .ban{
     position: relative;
 }
 .ban img{
     width: 1000px;
+}
+.ban .pain{
+    background-color: #ffa500;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.ban h2{
+    font-size: 50px;
+}
+.ban h2 span{
+    font-size: 1.3em;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 15px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    background-color: bisque;
+    padding: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+nav li a.Jam{
+    color: green;
 }
