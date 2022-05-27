@@ -125,3 +125,7 @@ form input:focus{
     border: 4px dotted darkolivegreen;
     outline: none;
 }
+form input:valid{
+    border: 4px solid greenyellow;
+
+}
