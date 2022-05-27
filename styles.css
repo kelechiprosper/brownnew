@@ -133,3 +133,7 @@ article p::first-line{
     font-weight: bold;
     font-size: 1.2em;
 }
+selection.ban p::selection{
+    background-color: blue;
+    color: blue;
+}
