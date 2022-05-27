@@ -117,3 +117,11 @@ form input{
 nav li a:hover{
     text-decoration: underline;
 }
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 4px dotted darkolivegreen;
+    outline: none;
+}
