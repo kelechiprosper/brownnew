@@ -137,3 +137,6 @@ selection.ban p::selection{
     background-color: blue;
     color: blue;
 }
+p::after{
+    content: '...';
+}
