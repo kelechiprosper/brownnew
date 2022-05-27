@@ -113,3 +113,7 @@ form input{
     padding: 10px;
     text-align: center;
 }
+
+nav li a:hover{
+    text-decoration: underline;
+}
