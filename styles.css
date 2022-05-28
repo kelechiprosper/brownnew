@@ -140,3 +140,16 @@ selection.ban p::selection{
 p::after{
     content: '...';
 }
+
+@media screen and (max-width: 700px){
+
+
+.band .pain{
+    background-color: #ffa500;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+}
