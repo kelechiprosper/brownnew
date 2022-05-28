@@ -144,12 +144,11 @@ p::after{
 @media screen and (max-width: 700px){
 
 
-.band .pain{
-    background-color: #ffa500;
-    color: white;
-    padding: 5px;
-    position: absolute;
-    left: 0;
-    top: 30%;
+.band .pain h2{
+    font-size: 30px;
+}
+
+nav li{
+    font-size: 12px;
 }
 }
